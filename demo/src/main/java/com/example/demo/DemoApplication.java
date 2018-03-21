@@ -7,11 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		try{
-			t.start();
-		}catch (Exception e) {
-
-		}
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.print("finish");
 	}
